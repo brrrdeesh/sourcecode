@@ -1,0 +1,125 @@
+1.Program to use arithmetic operators
+Source Code:
+a=int(intput("Enter a number:"))
+b=int(input("Enter a number:"))
+print("Sum of the given numbers=",a+b)
+print("Differcence of the given number=",a-b)
+print("Product of the given number=",a*b)
+print("quotient of the given number=",a/b)
+
+Output:
+Enter a number:8
+Enter a number:4
+Sum of the number=12
+Difference of the number=4
+Product of the number=32
+Quotient of the number=2.0
+
+2.Program to exchange values
+Source Code:
+a=int(input("Enter a number:"))
+b=int(input("Enter a number:"))
+a=a+b
+b=a-b
+a=a-b
+print("a=",a)
+print("b=",b)
+
+Output:
+Enter a number:2
+Enter a number:9
+a= 9
+b= 2
+
+3.Program to calculate simple intrest
+Source Code:
+p=int(input("Enter the principal amount:"))
+t=int(input("Enter the time period:"))
+r=int(input("Enter rate of intrest:"))
+s=p*t*r/100
+a=p-s
+print("Simple Intrest=",s)
+print("Amount to be paid=",a)
+
+Output:
+Enter the principal amount:20000
+Enter the time period:4
+Enter rate of intrest:5
+Simple Intrest= 4000.0
+Amount to be paid= 16000.0
+
+4.Program to find cost of apple
+Source code:
+r=int(input("Enter rate of 1kg apple:"))
+w=int(input("Weight of Apples brought(in kg):"))
+a=r*w
+print("Total cost of apple:",a)
+
+Output:
+Enter rate of 1kg apple:70
+Weight of Apples brought(in kg):5
+Total cost of apple: 350
+
+5.Program to convert Farenheit to Celsius 
+Source Code:
+V=c=int(input("Enter temperature in celsius:"))
+F=(c*9/5)+42
+print("Temperature in Farenheit:",F)
+
+Output:
+Enter temperature in celsius:30
+Temperature in Farenheit: 96.0
+
+6.Program to find distance between two points
+Source Code:
+x1=int(input("Enter x1 value:"))
+x2=int(input("Enter x2 value:"))
+y1=int(input("Enter y1 value:"))
+y2=int(input("Enter y2 value:"))
+d=(((x1-x2)**2+(y1-y2)**2))**(1/2)
+print("The diatance between two points=",d)
+
+Output:
+Enter x1 value:8
+Enter x2 value:4
+Enter y1 value:7
+Enter y2 value:4
+The diatance between two points= 5.0
+
+7.Program to bill incoice for books
+Source Code:
+b1=int(input("Enter the price of the book :"))
+b2=int(input("Enter the price of the book :"))
+b3=int(input("Enter the price of the book :"))
+b4=int(input("Enter the price of the book :"))
+t=b1+b2+b3+b4
+d=(20/100)*(t)
+T=t-d
+print("Discount applied:")
+print("Amount to be paid:",t)
+
+Output:
+Enter the price of the book :800
+Enter the price of the book :90
+Enter the price of the book :700
+Enter the price of the book :910
+Discount applied:500
+Amount to be paid: 2000
+
+8.Program to circulate the values
+Source Code:
+
+
+7.Program to circulate the values
+Source Code:
+print("To circulate two values in a list")
+list=[0,1,2,3,4,5]
+print("The given list is :",list)
+n=2
+a=list[n:]+list[:n]
+print("The circulate list is :",a)
+
+Output:
+To circulate two values in a list
+THe given list is : [0, 1, 2, 3, 4, 5]
+The circulate list is : [2, 3, 4, 5, 0, 1]
